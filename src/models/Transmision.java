@@ -7,6 +7,48 @@ public class Transmision {
     private String marca;
     private String modelo;
 
+    
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public int getMarchas() {
+        return marchas;
+    }
+
+    public void setMarchas(int marchas) {
+        this.marchas = marchas;
+    }
+
+    public String getTraccion() {
+        return traccion;
+    }
+
+    public void setTraccion(String traccion) {
+        this.traccion = traccion;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
     public Transmision() {}
 
     public Transmision(String tipo, int marchas, String traccion, String marca, String modelo) {

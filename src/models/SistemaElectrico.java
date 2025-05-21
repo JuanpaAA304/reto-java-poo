@@ -7,6 +7,56 @@ public class SistemaElectrico {
     private String bateria;
     private String luces;
     private String sensores;
+
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public String getBateria() {
+        return bateria;
+    }
+
+    public void setBateria(String bateria) {
+        this.bateria = bateria;
+    }
+
+    public String getLuces() {
+        return luces;
+    }
+
+    public void setLuces(String luces) {
+        this.luces = luces;
+    }
+
+    public String getSensores() {
+        return sensores;
+    }
+
+    public void setSensores(String sensores) {
+        this.sensores = sensores;
+    }
+
     public SistemaElectrico() {}
 
     public SistemaElectrico(String tipo, String marca, String modelo, String bateria, String luces, String sensores) {

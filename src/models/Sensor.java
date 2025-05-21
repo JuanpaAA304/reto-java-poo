@@ -6,7 +6,57 @@ public class Sensor {
     private String modelo;
     private String velocidad;
     private String temperatura;
-    private String presion;
+    private String presion; 
+
+    
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public String getVelocidad() {
+        return velocidad;
+    }
+
+    public void setVelocidad(String velocidad) {
+        this.velocidad = velocidad;
+    }
+
+    public String getTemperatura() {
+        return temperatura;
+    }
+
+    public void setTemperatura(String temperatura) {
+        this.temperatura = temperatura;
+    }
+
+    public String getPresion() {
+        return presion;
+    }
+
+    public void setPresion(String presion) {
+        this.presion = presion;
+    }
 
     public Sensor() {}
 

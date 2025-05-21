@@ -8,6 +8,56 @@ public class SistemaFrenos {
     private String abs;
     private String estado;
 
+    
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public String getDiscos() {
+        return discos;
+    }
+
+    public void setDiscos(String discos) {
+        this.discos = discos;
+    }
+
+    public String getAbs() {
+        return abs;
+    }
+
+    public void setAbs(String abs) {
+        this.abs = abs;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
     public SistemaFrenos() {}
 
     public SistemaFrenos(String tipo, String marca, String modelo, String discos, String abs, String estado) {
